@@ -1,0 +1,74 @@
+html, body{
+        height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-image: linear-gradient(lightblue, lightseagreen);
+}
+table{
+        width: 75vw;
+	text-align: center;
+}
+#create_account_banner{
+	height: 12%;
+	width: 100%;
+	background-image: url("../img/banner.jpg");	
+}
+#create_account_sidebar{
+        float: left;
+        height: 100%;
+        width: 5%;
+}
+#home_button{
+        padding: 12px 20px;
+        margin-top: 5vh;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        cursor: pointer;
+}
+#create_account_main{
+        position: absolute;
+        text-align: center;
+        top: 25vh;
+        left: 6vw;
+        background-image: linear-gradient(lightsalmon, peachpuff);
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 5px steelblue;
+}
+#create_account_footer{
+        margin-top: 70vh;
+        height: 5%;
+        width: 100%;
+}
+#logout_button{
+        float: right;
+        background-color: limegreen;
+        padding: 4px 10px;
+        /*margin: 4px 0;*/
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+}
+input[type=text], select{
+        padding:12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+}
+input[type=submit]{
+        background-image: linear-gradient(to bottom right, limegreen, palegreen);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+}

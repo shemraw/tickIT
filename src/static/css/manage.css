@@ -1,0 +1,110 @@
+html, body{
+        height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-image: linear-gradient(lightblue, lightseagreen);
+}
+table{
+        width: 75vw;
+        border-collapse: collapse;
+	text-align: center;
+}
+#manage_banner{
+        height: 12%;
+        width: 100%;
+        background-image: url("../img/banner.jpg");
+}
+#manage_sidebar{
+        float: left;
+        height: 100%;
+        width: 5%;
+}
+#manage_sidebar button{
+        width: 100%;
+}
+#manage_main{
+        position: absolute;
+        text-align: center;
+        top: 25vh;
+        left: 6vw;
+        height: 50vh;
+        float: left;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background-color: lightsalmon;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 5px steelblue;
+}
+#tech_table{
+        /*border: solid;*/
+        /*height: 30vh;*/
+        border-collapse: collapse;
+}
+#tech_table tr, td{
+        padding: 5px;
+        border-bottom: 1px solid #ddd;
+}
+#create_tech_button{
+        /*nothing yet*/
+        background-color: limegreen;
+        padding: 14px 20px;
+        /*margin: 8px 0;*/
+        margin-top: 5vh;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+}
+/*#tech_table_header{
+        text-align: left;
+}
+#tech_table_header tr:hover{
+        color: black;
+        cursor: default;
+}*/
+#tech_table tr:hover{
+        color: grey;
+        cursor: pointer;
+}
+#tech_table tr:nth-child(even){
+        background-color: #FFDEAD;
+}
+#tech_table tr:nth-child(odd){
+	background-color: lightsalmon;
+}
+#manage_footer{
+        margin-top: 75vh;
+        height: 5%;
+        width: 100%;
+}
+#logout_button{
+        float: right;
+        background-color: limegreen;
+        padding: 4px 10px;
+        margin: 4px 0;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+}
+#home_button{
+         padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        cursor: pointer;
+}
+input[type=submit]{
+        background-color: limegreen;
+        padding: 4px 10px;
+        margin: 4px 0;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+}
+
+

@@ -1,0 +1,102 @@
+html, body{
+	height: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-image: linear-gradient(lightseagreen, lightblue);
+}
+table{
+	width: 75vw;
+	border-collapse: collapse;
+	text-align: center;
+}
+#settings_banner{
+	height: 12%;
+	width: 100%;	
+	text-align: center;
+	background-image: url("../img/banner.jpg");
+}
+table{
+        width: 75vw;
+        border-collapse: collapse;
+}
+#settings_banner{
+        height: 12%;
+        width: 100%;
+        text-align: center;
+        background-image: url("../img/banner.jpg");
+}
+#settings_sidebar{
+        float: left;
+        height: 100%;
+        width: 5%;
+}
+#settings_sidebar button{
+	padding: 12px 20px;
+        /*margin-top: 5vh;*/
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+        cursor: pointer;
+}
+
+#settings_main{
+	position: absolute;
+	text-align: center;
+	top: 25vh;
+	left: 6vw;
+	height: 60vh;
+        float: left;
+}
+#settings_main table{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background-color: lightsalmon;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 5px steelblue;
+}
+#settings_main  th, td{
+	padding: 5px;
+}
+#settings_main tr{
+	border-bottom: 1px solid #ddd;
+}
+#settings_main tr:nth-child(even){
+	background-color: #FFDEAD;
+        padding: 5px;
+}
+#home_footer{
+        margin-top: 75vh;
+        height: 5%;
+        width: 100%;
+}
+input[type=submit], logout{
+        float: right;
+        background-image: linear-gradient(to bottom right, limegreen, palegreen);
+        padding: 12px 80px;
+        margin: 2px 0;
+        border: 1px solid #ccc;
+        border-radius: 14px;
+        cursor: pointer;
+}
+/*#logout_button{
+	float: right;
+        background-image: linear-gradient(to bottom right, limegreen, palegreen);
+        padding: 12px 80px;
+        margin: 2px 0;
+        border: 1px solid #ccc;
+        border-radius: 14px;
+        cursor: pointer;
+}*/
+#edit_account_button{
+	background-image: linear-gradient(to bottom right, limegreen, palegreen);
+	padding: 4px 10px;
+	margin: 4px 0;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+}

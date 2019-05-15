@@ -1,0 +1,120 @@
+html, body{
+        height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-image: linear-gradient(lightseagreen, lightblue);
+}
+table{
+        width: 75vw;
+        border-collapse: collapse;
+}
+#managetech_banner{
+        height: 12%;
+        width: 100%;
+        background-image: url("../img/banner.jpg");
+}
+#managetech_sidebar{
+        float: left;
+        height: 100%;
+        width: 5%;
+}
+#home_button{
+        padding: 12px 20px;
+        margin-top: 5vh;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        /*opacity: 0.8;*/
+        filter: alpha(opacity=80);
+        cursor: pointer;
+}
+#managetech_main{
+        position: absolute;
+        text-align: center;
+        top: 35vh;
+        left: 6vw;
+        /*background-image: linear-gradient(lightsalmon, peachpuff);*/
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 5px steelblue;
+}
+#tech_table{
+        /*border: solid;*/
+        background-image: linear-gradient(lightsalmon, peachpuff);
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 5px steelblue;
+        padding:5px;
+}
+#tech_table th, td{
+        /*outline: thin solid;*/
+        padding: 5px;
+        border-bottom: 1px solid #ddd;
+}
+#tech_table tr:hover{
+        color: grey;
+        cursor: pointer;
+}
+#tech_table tr:nth-child(even){
+        background-color: #FFDEAD;
+}
+#ticket_table{
+        /*border: solid;*/
+        background-image: linear-gradient(lightsalmon, peachpuff);
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 5px steelblue;
+        padding:5px;
+}
+#ticket_table th, td{
+        /*outline: thin solid;*/
+        padding: 5px;
+        border-bottom: 1px solid #ddd;
+}
+#ticket_table tr:hover{
+        color: grey;
+        cursor: pointer;
+}
+#ticket_table tr:nth-child(even){
+        background-color: #FFDEAD;
+}
+#ticket_table tr:nth-child(even){
+	background-color: #FFDEAD;
+}
+#managetech_footer{
+        margin-top: 75vh;
+        height: 5%;
+        width: 100%;
+}
+#logout_button{
+        float: right;
+	padding-right: 50px;
+	 background-color: limegreen;
+        padding: 4px 10px;
+        margin: 4px 0;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+}
+input[type=submit]{
+        color: white;
+        background-color: #B22222;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        cursor: pointer;
+}
+/*input[type=submit]{
+        color: white;
+        background-color: #B22222;
+        padding: 12px 20px;
+  	margin: 8px 0;
+	display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        cursor: pointer;
+}*/

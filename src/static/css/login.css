@@ -1,0 +1,71 @@
+html, body{
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+body{
+        color: white;
+        background-image: linear-gradient(lightseagreen, lightblue);
+        transform: translate(-50%, -50%);
+        /*position: absolute;*/
+        text-align: center;
+        /*top: 25%;
+        left: 50%;*/
+        padding-top:50%;
+        padding-right: 50%;
+        padding-bottom: 20%;
+        padding-left:110%;
+}
+input[type=password], select{
+	padding:12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-sizing: border-box;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+input[type=text], select{
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+}
+input[type=submit]{
+        color: white;
+        background-image: linear-gradient(to bottom right, limegreen, palegreen);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+}
+span{
+	font-size: 24px;
+	color: black;
+}
+#login_banner{
+        color: white;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+        margin-top: 30vh;
+        height: 307px;
+        width: 446px;
+        background-image: url("../img/tickit_login_02.png");
+        box-shadow: 10px 10px 5px steelblue;
+}
+div{
+        width: 446px;
+        border-radius: 25px;
+        background-image: linear-gradient(lightsalmon, peachpuff);
+        padding: 20px;
+}
+
