@@ -1,0 +1,5 @@
+tickIT
+By Capstone Commerce Kent State University Spring 2019
+
+src contains web application-centric code.
+vendor contains phpmailer dependency.
